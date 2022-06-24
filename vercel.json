@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:match*",
-      "destination": "https://netease-cloud-music-api-sable-two.vercel.app/song/url?id=191254&realIP=116.25.146.177"
+      "destination": "https://netease-cloud-music-api-sable-two.vercel.app/:match*"
     }
   ]
 }
